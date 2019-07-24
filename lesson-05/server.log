@@ -1,0 +1,1 @@
+2019-07-13 09:55:28 ERROR BucketDaoImpl:50 - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`i_shop`.`bucket`, CONSTRAINT `bucket_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`))
